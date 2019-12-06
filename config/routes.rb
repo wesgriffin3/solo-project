@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root 'pictures#index'
+  get 'home/potd'
+  root 'home#index'
+  get 'home/planets'
 end

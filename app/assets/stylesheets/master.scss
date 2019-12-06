@@ -1,1 +1,33 @@
 @import "bootstrap";
+
+.jumbotron
+{
+  background-color:#2e2e2e!important;
+  color: white;
+  text-align: center;
+}
+
+#user-text {
+  width: 500px;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+#search-btn {
+  margin-top: 10px;
+}
+
+.nav-item {
+  padding: 5px;
+  text-color: black;
+}
+
+.card {
+  
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border: solid 5px;
+}
