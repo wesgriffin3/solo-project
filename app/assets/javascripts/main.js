@@ -16,12 +16,14 @@ $(document).ready(() => {
                 //links [] => href => "https://"
                 var pic = $('<img/>'); // creating new img element
                 var link = item.links[0].href //get link from object
-                // var title = item.data[0].title
-                var description = item.data[0].description
+                // var name = $('<p/>')
+                var title = item.data[0].title
+                // var description = item.data[0].description
 
                 pic.attr('src', link);// set src attribute to the link
+                // name.attr('src', title);
 
-                // allPics.append(title);
+                container.append(title);
                 container.append(pic);
                 // container.append('<ul id="des">' + description + '</ul>');  //Adds description
 

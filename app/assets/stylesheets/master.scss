@@ -13,7 +13,6 @@
   text-align: center;
   width: 1000px;
   margin: auto;
-  opacity: .9;
 }
 
 #user-text {
@@ -47,13 +46,14 @@ img {
   position: relative;
   border:1px solid white;
   // opacity: 0.2;
-  
+  text-color: white;
 }
 
 
 .container {
   padding: 1em;
   column-count: 3;
+  text-color: white;
 }
 
 @media(max-width: 800px) {
@@ -84,4 +84,8 @@ img {
 
 #loadmore {
   margin: center;
+}
+
+p {
+  color: white;
 }
