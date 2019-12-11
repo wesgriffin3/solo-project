@@ -73,7 +73,3 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 
-group :development, :test do
-  gem 'sqlite3'
-end
-gem 'pg', group: :production`
