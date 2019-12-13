@@ -5,13 +5,19 @@
   background-attachment: fixed;
 }
 
+.display-4 {
+  padding-bottom: 15px;
+}
+
 .jumbotron
 {
-  background-color:#2e2e2e!important;
+  background-color: rgb(43, 43, 43);
+  background-color:rgba(43, 43, 43, 0.9)!important;
   color: white;
   text-align: center;
   width: 1000px;
   margin: auto;
+  margin-top: 50px;
 }
 
 #user-text {
@@ -43,9 +49,6 @@ img {
   margin-left: 1em;
   margin-top: 1em;
   position: relative;
-  border:1px solid white;
-  // opacity: 0.2;
-  text-color: white;
 }
 
 
@@ -83,8 +86,7 @@ img {
 
 #loadmore {
   margin: center;
+  margin-left: 590px;
+  margin-bottom: 5px;
 }
 
-p {
-  color: white;
-}

@@ -1,8 +1,7 @@
 <div class="jumbotron">
     <h1 class="display-4">NASA</h1>
-    <p class="lead">Space stuff</p>
     <!-- Search form -->
-    <input id="user-text" class="form-control" type="text" placeholder="Search the universe..." aria-label="Search">
+    <input id="user-text" class="form-control" type="text" placeholder="Search the known universe..." aria-label="Search">
     <button id="search-btn" class="btn btn-primary">Enter</button>
 </div>
 
@@ -11,9 +10,12 @@
 <%= yield %>
 
 <div class="container">
-<label>
+<script>
+function changeFont() {
+    document.getElementById("p").style.color = "white";
 
-</label>
+};
+</script>
 </div>
 
 <div>
@@ -21,13 +23,14 @@
 </div>
 
 <script>
-    var button= document.getElementById('loadmore')
-    button.addEventListener('click', hideshow, false);
+    var buttonmore= document.getElementById('loadmore')
+    buttonmore.addEventListener('click', hideshow, false);
 
     function hideshow() {
         document.getElementById('loadmore').style.display = 'block';
         this.style.display = 'none'
     };
+
 </script>
 
 </body>
