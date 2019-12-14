@@ -45,7 +45,7 @@ $(document).ready(() => {
                 const title = $(`<p class="title">${titleText}</p>`)
                 pic.attr('src', picLink);
                 container.append(title);
-                container.append(pic);
+                pic.appendTo(title);
             });
         });
     }));
